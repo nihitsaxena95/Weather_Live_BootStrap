@@ -1,3 +1,4 @@
+	/*Header Nav Style*/
 	.imgmain {	
 		color: white;
 	}	
@@ -19,6 +20,23 @@
 	.navbar-secondary a {
 		color: white;
 	}
+	.navbar-right li{
+		border-right: 1px solid white;
+	}
+	.navbar-right li a:hover{
+		color: #226083;
+	}
+	.navbar-right:first-child {
+		border-left: 1px solid white;
+	}
+	.active {
+		background-color: rgb(231, 231, 231);
+	}
+	.active a {
+		color: #226083;
+	}
+	/*Header Nav Ends*/
+	/*Jumbotron Hero Start*/
 	.jumbotron {
 		background-image: url("../img/clouds.jpg");
 		color: white;
@@ -57,21 +75,6 @@
 		background-color: rgb(231, 231, 231); 
 		color: #226083;
 	}
-	.navbar-right li{
-		border-right: 1px solid white;
-	}
-	.navbar-right li a:hover{
-		color: #226083;
-	}
-	.navbar-right:first-child {
-		border-left: 1px solid white;
-	}
-	.active {
-		background-color: rgb(231, 231, 231);
-	}
-	.active a {
-		color: #226083;
-	}
 	.col-md-2 p {
 		font-size: 15px;
 	}
@@ -103,6 +106,9 @@
 	.headlist li{
 		padding: 0px;
 	}
+
+	/*Jumbotron Ends*/
+	/*Main Content Starts*/
 	.info {
 		width: 100%;
 		padding-top: 30px;
@@ -131,6 +137,8 @@
 	.thumbnail a {
 		color: #226083;
 	}
+	/*Main Content Ends*/
+	/*footer Styles*/
 	.footer .container {
 		border-top: 1px solid black;
 		padding-top: 20px;
@@ -146,6 +154,7 @@
 		margin-top: 10px;
 		margin-bottom: 20px; 
 	}
+	/*Footer Ends*/
 	/* Portrait & landscape phone */
 @media (max-width: 480px) {
 	.headlist {
