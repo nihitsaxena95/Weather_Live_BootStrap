@@ -156,6 +156,22 @@
 	}
 	/*Footer Ends*/
 	/* Portrait & landscape phone */
+@media only screen   and(width: 1200px), only screen   and(height: 768px) {
+	
+	}
+
+@media (max-width: 768px) {
+	.headlist {
+			padding-left: 0px;
+			padding-right: 0px;
+			
+		}
+		.row {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
+}
 @media (max-width: 480px) {
 	.headlist {
 			margin-left: 20px;
@@ -175,19 +191,13 @@
 		.info .col-md-4 {
 			padding: 20px;
 		}
+		.row {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
 }
 
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	.headlist {
-			padding-left: 0px;
-			padding-right: 0px;
-			
-		}
-}
 
 /* Large desktop */
-@media (min-width: 1200px) {
-	
-	}
